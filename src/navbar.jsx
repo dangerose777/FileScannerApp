@@ -2,12 +2,13 @@ import { useState } from "react";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
 
-function App() {
+function navbar() {
   return (
     <main className="container">
-      <h1>App</h1>
+      <h1>Navbar</h1>
+      <button>XDDDD</button>
     </main>
   );
 }
 
-export default App;
+export default navbar;

@@ -1,4 +1,4 @@
-# File Scanner App
+# File Scanner App | Completed: ❌
 Scanning hash app with save/config file.
 
 ## Technologies:
