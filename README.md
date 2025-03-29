@@ -4,6 +4,7 @@ Scanning hash app with save/config file.
 ## Technologies:
 - React / Vite
 - Tauri
+- React Icons
 
 ## Setup:
 in C:\xampp\htdocs\
