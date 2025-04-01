@@ -25,9 +25,9 @@ npm run tauri dev
 
 ## To do:
 ### UI
-- [ ]  Main UI
-- [ ]  Settings UI
+- [x]  Main UI
+- [x]  Settings UI
 ### FUNCTIONALITY
 - [ ]  Scanning
-- [ ]  Settings
+- [x]  Settings (for now stored in localStorage)
 - [ ]  Database

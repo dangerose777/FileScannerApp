@@ -1,12 +1,48 @@
 * {
   font-family: "Poppins";
+  font-weight: 400;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
 }
 
 :root {
-  background-color: #333333;
   margin: 0px;
   padding: 0px;
+}
+
+.theme-light body {
+  background-color: #dddddd;
+  color: #333333;
+  transition: 0.5s;
+}
+.theme-dark body {
+  background-color: #333333;
   color: #dddddd;
+  transition: 0.5s;
+}
+
+.theme-dark .bg {
+  background-color: rgb(18, 18, 18);
+  transition: 0.5s;
+}
+
+.theme-light .bg {
+  background-color: rgb(139, 139, 139);
+  transition: 0.5s;
+}
+
+.theme-dark button {
+  color: #dddddd;
+  transition: 0.5s;
+}
+
+.theme-light button {
+  color: #333333;
+  transition: 0.5s;
 }
 
 #infoText {
@@ -19,21 +55,34 @@ button {
   cursor: pointer;
   padding: 0px;
   margin: 0px;
-  color: #dddddd;
 }
 
-#buttonSettings {
+#btnSettings {
   z-index: 0;
   width: 50px;
   height: 50px;
   font-size: 50px;
 }
 
+button:hover {
+  opacity: 60%;
+  transition: 0.25s;
+}
+
+#btnCloseSettings {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  margin-top: -65px;
+  position: absolute;
+  margin-left: 150px;
+}
+
 .container {
   width: 790px;
 }
 
-#buttonScan {
+#btnScan {
   background-color: green;
   padding: 5px;
   border-radius: 5px;
@@ -48,4 +97,36 @@ button {
 .filescaner {
   justify-content: center;
   text-align: center;
+}
+
+.settingsPanel {
+  width: 800px;
+  margin-top: -320px !important;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
+
+.settingsPanel .bg {
+  width: 200px;
+  height: 100%;
+  z-index: 1 !important;
+  position: absolute;
+}
+
+.settingsPanel .panel {
+  z-index: 2 !important;
+  position: absolute;
+}
+
+.panel h1 {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+#slctTheme {
+  margin-left: 5px;
 }
