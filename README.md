@@ -2,7 +2,8 @@
 Scanning hash app with save/config file.
 
 ## Technologies:
-- React / Vite
+- React
+- Vite
 - Tauri
 - React Icons
 

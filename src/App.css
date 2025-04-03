@@ -45,6 +45,11 @@ body {
   transition: 0.5s;
 }
 
+.theme-light #btnScan {
+  color: #dddddd;
+  transition: 0.5s;
+}
+
 #infoText {
   margin-top: 30px;
 }
